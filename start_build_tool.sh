@@ -1,4 +1,5 @@
 #!/bin/bash
+git submodule update --init --recursive
 cd vesc_tool
 git apply ../patches/vesc_tool/0001-build-cp-fw.patch
 git apply ../patches/vesc_tool/0002-lzokay-gcc12-support.patch
