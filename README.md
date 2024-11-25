@@ -1,10 +1,12 @@
 # vesc_builder
 A docker environment for compiling VESC Tool 6.02+.
 
+Currently a Ubuntu 22.04 docker environment is used. Could change to another distro later on.
+
 ## Usage
 
 ```bash
-./build_tool.sh
+./start_build_tool.sh
 ```
 
 ## License
