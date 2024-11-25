@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 RUN cp /etc/apt/sources.list /etc/apt/sources.list~; \
     sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
