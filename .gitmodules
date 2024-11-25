@@ -1,0 +1,6 @@
+[submodule "vesc_fw"]
+	path = vesc_fw
+	url = https://github.com/vedderb/bldc.git
+[submodule "vesc_tool"]
+	path = vesc_tool
+	url = https://github.com/vedderb/vesc_tool.git

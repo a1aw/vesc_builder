@@ -1,0 +1,13 @@
+diff --git a/build_cp_fw b/build_cp_fw
+index 513aac7..83e93d2 100755
+--- a/build_cp_fw
++++ b/build_cp_fw
+@@ -2,7 +2,7 @@
+ 
+ set -e
+ 
+-FWPATH="../../ARM/STM_Eclipse/BLDC_4_ChibiOS/"
++FWPATH="../vesc_fw"
+ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+ 
+ rm -rf $FWPATH/package/*
